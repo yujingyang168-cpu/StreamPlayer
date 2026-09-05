@@ -60,6 +60,6 @@ dependencies {
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
-
+implementation("androidx.lifecycle:lifecycle-runtime-compose:2.7.0")
     implementation(libs.coil.compose)
 }
